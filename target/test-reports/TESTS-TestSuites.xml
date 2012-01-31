@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="vectra.ideais.local" id="0" name="RaceControllerTests" package="racetrack" tests="1" time="0.139" timestamp="2012-01-10T11:57:14">
+      <properties />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="0.134" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="vectra.ideais.local" id="1" name="RaceTests" package="racetrack" tests="1" time="0.14" timestamp="2012-01-10T11:57:15">
+      <properties />
+
+      <testcase classname="racetrack.RaceTests" name="testSomething" time="0.134">
+          <error message="No signature of method: racetrack.Race.validate() is applicable for argument types: () values: [] Possible solutions: wait(), getState()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: racetrack.Race.validate() is applicable for argument types: () values: []
+Possible solutions: wait(), getState()
+	at racetrack.RaceTests.testSomething(RaceTests.groovy:9)
+	at TestApp$_run_closure4.doCall(TestApp:271)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:228)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:187)
+	at TestApp$_run_closure1.doCall(TestApp:174)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="vectra.ideais.local" id="2" name="RegistrationControllerTests" package="racetrack" tests="1" time="0.849" timestamp="2012-01-10T11:57:13">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testSomething" time="0.826" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="vectra.ideais.local" id="3" name="RegistrationTests" package="racetrack" tests="1" time="0.016" timestamp="2012-01-10T11:57:15">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.0040" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="vectra.ideais.local" id="4" name="UserControllerTests" package="racetrack" tests="1" time="0.174" timestamp="2012-01-10T11:57:15">
+      <properties />
+
+      <testcase classname="racetrack.UserControllerTests" name="testSomething" time="0.17" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="vectra.ideais.local" id="5" name="UserTests" package="racetrack" tests="1" time="0.0060" timestamp="2012-01-10T11:57:15">
+      <properties />
+
+      <testcase classname="racetrack.UserTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

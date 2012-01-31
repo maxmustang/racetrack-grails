@@ -1,0 +1,34 @@
+Testsuite: racetrack.RaceTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.14 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.106 sec
+	Caused an ERROR
+No signature of method: racetrack.Race.validate() is applicable for argument types: () values: []
+Possible solutions: wait(), getState()
+groovy.lang.MissingMethodException: No signature of method: racetrack.Race.validate() is applicable for argument types: () values: []
+Possible solutions: wait(), getState()
+	at racetrack.RaceTests.testSomething(RaceTests.groovy:9)
+	at TestApp$_run_closure4.doCall(TestApp:271)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:228)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:187)
+	at TestApp$_run_closure1.doCall(TestApp:174)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+
